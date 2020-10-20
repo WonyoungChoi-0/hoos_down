@@ -1,13 +1,12 @@
 
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar"
+import Typography from "@material-ui/core/Typography"
+import Button from "@material-ui/core/Button"
+import Card from "./components/event"
 
 // const useStyles = makeStyles((theme) => ({
 //   root: {
@@ -27,14 +26,6 @@ import Button from '@material-ui/core/Button';
 //   const classes = useStyles();
 
 
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar"
-import Typography from "@material-ui/core/Typography"
-import Button from "@material-ui/core/Button"
-import Card from "./components/event"
 
 
 function App() {
